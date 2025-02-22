@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: white;
+    background-color: rgba(189, 177, 177, 0.667);
 }
 
 button {
@@ -28,7 +28,7 @@ button {
 
 #calculator {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.744);
+    background-color: rgba(0, 0, 0, 0.711);
     border-radius: 5vh;
     max-width: 80vh;
     overflow: hidden;
@@ -39,7 +39,7 @@ button {
     padding: 5vh;
     text-align: left;
     border: none;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.79);
     color: white; /* Ensures text inside input is white */
     font-size: 2rem; /* Optional: Adjust font size for better visibility */
 }
