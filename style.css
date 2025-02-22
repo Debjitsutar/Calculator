@@ -64,3 +64,71 @@ button:active {
 .operator:active {
     background-color: hsl(35, 100%, 75%);
 }
+/* Media Query for 500x800 px devices */
+@media (max-width: 500px) and (max-height: 800px) {
+    #calculator {
+        max-width: 90vw;
+        border-radius: 3vh;
+    }
+    #keys {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2vw;
+        padding: 5vh;
+    }
+    button {
+        height: 8vh;
+        width: 8vh;
+        border-radius: 4vh;
+        font-size: 2rem;
+    }
+    #display {
+        font-size: 1.5rem;
+        padding: 3vh;
+    }
+}
+/* Media Query for below 384×800 px */
+@media (max-width: 384px) and (max-height: 800px) {
+    #calculator {
+        max-width: 95vw;
+        border-radius: 2vh;
+    }
+
+    #keys {
+        gap: 3vw;
+        padding: 3vh;
+    }
+
+    button {
+        height: 7vh;
+        width: 7vh;
+        font-size: 2rem;
+    }
+
+    #display {
+        font-size: 1.5rem;
+        padding: 3vh;
+    }
+}
+/* Media Query for 315×800 px */
+@media (max-width: 315px) and (max-height: 800px) {
+    #calculator {
+        max-width: 98vw;
+        border-radius: 1.5vh;
+    }
+
+    #keys {
+        gap: 3vw;
+        padding: 2vh;
+    }
+
+    button {
+        height: 6vh;
+        width: 6vh;
+        font-size: 1.8rem;
+    }
+
+    #display {
+        font-size: 1.3rem;
+        padding: 2.5vh;
+    }
+}
